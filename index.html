@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div id="full">
+        <form action="" id="form">
+          <div id="input-grp">
+             <p id="heading">Sign Up</p>
+             <div class="input">
+                <i class="fa-solid fa-user-large"></i>
+                <input type="text" id="userName" placeholder="Your Username">               
+                <hr class="hor">
+                <div class="error"></div>
+             </div>
+             <div class="input">
+                <i class="fa-solid fa-envelope" style="color:black;"></i>
+                <input type="text" id="email" placeholder="Your Email">
+                <hr class="hor">
+                <div class="error"></div>
+             </div>
+             <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" placeholder="Your Password">
+                <hr class="hor">
+                <div class="error"></div>
+             </div>
+             <div class="input">
+                <i class="fa-solid fa-unlock-keyhole"></i>
+                <input type="password" id="repeat" placeholder="Re-enter Your Password">   
+                <hr class="hor">
+                <div class="error"></div>
+             </div>
+             <div class="check">
+               <input type="checkbox" id="checkbox"> 
+               <label for="">I agree to all statements in <span style="text-decoration: underline;">Terms of Service</span></label>
+             </div>
+             <div class="button">
+               <button id="btn" type="submit">Register</button>
+            </div>
+            </div>   
+            <div id="image">
+               <img src="signup-image.jpg" alt="" srcset="">
+               <a href="signup.html" target="_self">Already a member - Sign in</a>
+            </div>
+        </form>
+        
+    </div>
+</body>
+</html>
+
